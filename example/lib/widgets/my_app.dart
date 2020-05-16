@@ -1,14 +1,12 @@
 import 'package:example/widgets/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:logger_flutter/logger_flutter.dart';
+import 'package:flutter_custom_logger/flutter_custom_logger.dart';
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LogConsoleOnShake(
-        dark: true,
-        debugOnly: false,
+      home: OpenConsoleOnGesture(
         child: HomeScreen(),
       ),
     );
