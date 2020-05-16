@@ -100,9 +100,11 @@ packages:
   logger_flutter:
     dependency: "direct main"
     description:
-      name: logger_flutter
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: "feature/add-open-console-on-box-gesture"
+      resolved-ref: "0dba9d05cdb8ab5209a0edb92820ffb0a983125c"
+      url: "https://github.com/defuncart/fork_logger_flutter.git"
+    source: git
     version: "0.7.1"
   matcher:
     dependency: transitive

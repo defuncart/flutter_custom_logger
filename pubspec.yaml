@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   logger: 0.7.0
-  logger_flutter: 0.7.1
+  logger_flutter:
+    git:
+      url: https://github.com/defuncart/fork_logger_flutter.git
+      ref: feature/add-open-console-on-box-gesture
 
 dev_dependencies:
   flutter_test:
