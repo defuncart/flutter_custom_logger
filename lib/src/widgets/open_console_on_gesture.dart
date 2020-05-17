@@ -18,13 +18,15 @@ class OpenConsoleOnGesture extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return LogConsoleOnBoxGesture(
+    return LogConsoleOnGesture(
       child: child,
+      gesture: Gesture.boxCircle,
       dark: true,
       debugOnly: false,
       levelsToFilter: [Level.debug, Level.warning, Level.error],
       defaultLevel: Level.debug,
       lineWidth: 0,
+      spaceBetweenElements: true,
     );
   }
 }
